@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA Victor Medellín</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="img/perfiil.jpg" alt="Perfil">
+    </div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#inicio" class="active">VÍCTOR</a></li>
+        <li><a href="#sobre-mi">SOBRE MI</a></li>
+        <li><a href="#educacion">EDUCACIÓN</a></li>
+        <li><a href="#portafolio">PORTAFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </aside>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Inicio -->
+<section id="inicio" class="section">
+    <h2>Víctor Medellín</h2>
+    <p class="typing-effect" id="typing-effect"></p>
+    <p class="welcome-text">¡Bienvenido a mi portafolio! Aquí encontrarás información sobre mi trayectoria, proyectos, habilidades y cómo contactarme. Espero que disfrutes navegando por mi sitio.</p>
+
+    <!-- Redes sociales -->
+    <div class="social-icons">
+        <a href="https://github.com/Vic364" target="_blank" title="GitHub">
+            <img src="img/github-icon.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/victor-medellin-b1b532179/" target="_blank" title="LinkedIn">
+            <img src="img/linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.facebook.com/cuack364" target="_blank" title="Facebook">
+            <img src="img/facebook-icon.png" alt="Facebook">
+        </a>
+    </div>
+
+    <!-- Botón para CV -->
+    <a href="https://drive.google.com/file/d/1raFRwYHVARn5MCVVgaDOvBVI9RnuiVyY/view?usp=sharing" class="btn btn-small">Ver mi CV</a>
+</section>
+
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <h2>SOBRE MI</h2>
+        <p>
+            Soy un desarrollador en crecimiento, apasionado por aprender nuevas tecnologías y aplicar mis conocimientos en programación y diseño. Mi objetivo es encontrar una empresa donde pueda desarrollar mis habilidades y contribuir al éxito de los proyectos.
+        </p>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="section">
+        <h2>EDUCACIÓN</h2>
+        <div class="education-container">
+          <!-- Telesecundaria -->
+          <div class="education-card">
+            <div class="education-header">
+              <h3>Telesecundaria Emiliano Zapata</h3>
+              <span class="education-date">2014 - 2017</span>
+            </div>
+            <p>Ubicación: Ojocaliente, Zacatecas. Buen desempeño académico, alumno promedio.</p>
+          </div>
+      
+          <!-- Colegio de Bachilleres -->
+          <div class="education-card">
+            <div class="education-header">
+              <h3>Colegio de Bachilleres del Estado de Zacatecas, Plantel 07</h3>
+              <span class="education-date">2017 - 2020</span>
+            </div>
+            <p>
+              Conocimientos adquiridos:
+              <br>- Paquetería Office
+              <br>- Mantenimiento de hardware
+              <br>- Introducción a HTML
+            </p>
+          </div>
+      
+          <!-- Universidad Tecnológica del Norte de Aguascalientes -->
+          <div class="education-card">
+            <div class="education-header">
+              <h3>Universidad Tecnológica del Norte de Aguascalientes</h3>
+              <span class="education-date">2021 - Actualidad</span>
+            </div>
+            <p>
+              Conocimientos adquiridos:
+              <br>- Lenguajes de programación: JavaScript, PHP, C#, C++
+              <br>- Gestión de redes con Cisco Packet Tracer
+              <br>- Bases de datos con SQL Server y XAMPP
+              <br>- Mantenimiento de hardware y software
+            </p>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="portafolio" class="section">
+        <h2>PORTAFOLIO</h2>
+        <div class="portfolio-container">
+            <!-- Tarjeta 1 -->
+            <div class="card">
+                <img src="img/casa-inteligente.jpg" alt="Casa inteligente">
+                <h3>Casa Inteligente</h3>
+                <p>Desarrollo de aplicaion, circuito, maquetado de una casa inteligente a escala.</p>
+                <div class="technologies">
+                    <img src="img/html-icon.png" alt="HTML5" title="HTML5">
+                    <img src="img/javascript-icon.png" alt="javascript" title="javascript">
+                    <img src="img/c++-icon.png" alt="c++" title="c++">
+                </div>
+                <a href="https://github.com/Vic364" class="btn" target="_blank">Ver repositorio</a>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="card">
+                <img src="img/aquanexus.jpg" alt="AquaNexus">
+                <h3>AquaNexus</h3>
+                <p>Proyecto Hackaton para mejorar la distribución de agua en Aguascalientes mediante blockchain y web3</p>
+                <div class="technologies">
+                    <img src="img/motoko-icon.png" alt="HTML5" title="HTML5">
+                    <img src="img/javascript-icon.png" alt="CSS3" title="CSS3">
+                    <img src="img/html-icon.png" alt="JavaScript" title="JavaScript">
+                </div>
+                <a href="https://github.com/Vic364/AquaNexus" class="btn" target="_blank">Ver repositorio</a>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="card">
+                <img src="img/agrofuturo.jpg" alt="AgroFuturo">
+                <h3>AgroFuturo</h3>
+                <p>Sistema para optimizar la gestión ganadera, ofreciendo control eficiente de entradas y salidas de ganado en una infraestructura descentralizada con Internet Computer.</p>
+                <div class="technologies">
+                    <img src="img/motoko-icon.png" alt="HTML5" title="HTML5">
+                    <img src="img/javascript-icon.png" alt="CSS3" title="CSS3">
+                    <img src="img/html-icon.png" alt="JavaScript" title="JavaScript">
+
+                </div>
+                <a href="https://github.com/vicklm/AgroFuturo" class="btn" target="_blank">Ver repositorio</a>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="card">
+                <img src="img/active-directory-icon.png" alt="AgroFuturo">
+                <h3>Administración de Laboratorios con Active Directory</h3>
+                <p>Gestión centralizada de equipos en la UTNA mediante Windows Server y Active Directory, implementando políticas para mejorar seguridad y control.</p>
+                
+                <a href="https://drive.google.com/file/d/1VxCOLJiAZV5BMOn1U-GDPx8KAMu-sE91/view?usp=sharing" class="btn" target="_blank">Ver documentación</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Habilidades -->
+    <section id="skills" class="section">
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+          <!-- Habilidades técnicas -->
+          <div class="skills-card">
+            <h3>Habilidades Técnicas</h3>
+            <ul>
+              <li>Lenguajes de programación: JavaScript, PHP, SQL, C#, C++</li>
+              <li>Gestión de redes</li>
+              <li>Mantenimiento de hardware y software</li>
+              <li>Uso avanzado de Microsoft Office</li>
+            </ul>
+          </div>
+      
+          <!-- Habilidades personales -->
+          <div class="skills-card">
+            <h3>Habilidades Personales</h3>
+            <ul>
+              <li>Trabajo en equipo</li>
+              <li>Trabajo bajo presión</li>
+              <li>Proactividad</li>
+            </ul>
+          </div>
+      
+          <!-- Idiomas -->
+          <div class="skills-card">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Español (Nativo)</li>
+              <li>Inglés (Nivel básico)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <h2>¡CONTÁCTAME!</h2>
+        <div class="contact-container">
+          <div class="contact-item">
+            <img src="img/email-icon.png" alt="Email Icon">
+            <p>Email: <a href="mailto:arturomdlln@gmail.com">arturomdlln@gmail.com</a></p>
+          </div>
+          <div class="contact-item">
+            <img src="img/whatsapp-icon.png" alt="WhatsApp Icon">
+            <p>WhatsApp: <a href="tel:+524581273765">+52 458 127 3765</a></p>
+          </div>
+          <div class="contact-item">
+            <img src="img/linkedin-icon.png" alt="LinkedIn Icon">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/victor-medellin-b1b532179/" target="_blank">in/arturomdlln</a></p>
+          </div>
+        </div>
+       
+      </section>
+      
+</main>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
